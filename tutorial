@@ -1,0 +1,10 @@
+#trying to learn to commit changes
+git init
+git status  # to see the list of changed files
+git add <whatever files>  # to stage those files for commiting
+# additionally as appropriate
+git rm <files>  # deleting files from git
+git mv <files>  # moving/renaming files
+git commit -m "Your commit message"  # to place the commit
+# alternatively
+git commit -a -m "Your commit message"  # staging all modified files and placing commit
